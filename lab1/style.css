@@ -1,0 +1,129 @@
+.header {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-VariableFont_opsz,wght.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 300;
+    font-family: 'Inter', 'Arial', sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navigation-item {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+    padding: 8px 16px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.active {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+.card-wrapper {
+    width: 820px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-regular,
+.card-yellow-orange,
+.card-purple-blue {
+    width: 400px;
+    height: 450px;
+    padding: 40px 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-regular {
+    border: 1px solid black;
+}
+
+.card-yellow-orange {
+    color: white;
+    background: linear-gradient(0.25turn, #ffbd71, #d77820);
+    border: none;
+}
+
+.card-purple-blue {
+    color: #fff;
+    background: linear-gradient(0.25turn, #9d54c1, #581fdd);
+    border: none;
+}
+
+.card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-date {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.text-style {
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-color: #bbb;
+}
+
+.text {
+    width: 100%;
+    padding: 20px;
+}

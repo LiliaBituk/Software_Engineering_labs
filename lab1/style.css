@@ -118,6 +118,7 @@ h2 {
 }
 
 .text-style {
+    text-align: left; 
     font-size: 14px;
     text-decoration: underline;
     text-decoration-color: #bbb;
@@ -126,4 +127,5 @@ h2 {
 .text {
     width: 100%;
     padding: 25px;
+    text-align: left; 
 }
